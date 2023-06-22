@@ -1,0 +1,59 @@
+body{
+    
+    padding:2%;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+    border:5px white solid;
+  }
+ 
+  
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+    color:aliceblue
+  }
+  h2 {
+    font-size: 2.5rem;
+    color: aquamarine;
+  }
+  p{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:bisque;
+  }
+  .sym{
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  #portfolio, #buyForm {
+    margin-bottom: 20px;
+  }
+  .head{
+    font-size: 1.5rem;
+    color:aquamarine;
+  }
+  
+  #stockTable {
+    width: 100%;
+    border-collapse: collapse;
+    color:white;
+    font-size: 1.2rem;
+  }
+  
+  #stockTable th, #stockTable td {
+    border: 1px solid aquamarine;
+    padding: 5px;
+    text-align: center;
+  }
+  .down{
+   
+    position: relative;
+    bottom: 0%;
+    left:40%;
+    color:white;
+    font-size: 1rem;
+  }
+  
+  

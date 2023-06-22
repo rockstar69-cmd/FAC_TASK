@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Investa</title>
+  <style>
+    #chartContainer {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+  <link href="styles1.css" rel="stylesheet">
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+  <div class="topbar">
+  <h1 class="head">WATCHLIST</h1>
+  </div>
+  <div id="movingObject"><p><b>AVAILABLE STOCKS:&nbsp; &nbsp;   Apple(AAPL) &nbsp; &nbsp;   Tesla(TSLA)  &nbsp; &nbsp;  Amazon(AMZN)   &nbsp; &nbsp;  Microsoft(MSFT) &nbsp; &nbsp;   Intel(INTC)</b></p></div>
+  <div class="searchbar">
+    <label for="stockSymbol">Enter Stock Symbol:</label>
+    <input type="text" id="stockSymbol" class="search"/>
+    <button onclick="searchStock()">Search</button>
+  </div>
+  <div id="chartContainer"></div>
+  <div class="start-buy-button">
+  <form method="post" action="file:///Users/anuraggupta/Desktop/FAC/portfolio.html">
+    <button class="submit-button"><b>BUY/SELL</b></button></form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

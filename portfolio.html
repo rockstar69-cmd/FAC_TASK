@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Stock Trading</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+  <h1><u>Virtual Investa</u></h1>
+  <hr>
+
+  
+  <div id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Available Funds: $<span id="availableFunds">10000</span></p>
+    <table id="stockTable">
+      <tr>
+        <th class="head">Stock</th>
+        <th class="head">Shares</th>
+        <th class="head">Avg. Price</th>
+        <th class="head">Current Price</th>
+        <th class="head">Profit/Loss</th>
+      </tr>
+    </table>
+    <p>Net Profit/Loss: $<span id="netProfitLoss">0.00</span></p>
+  </div>
+  <hr>
+  
+  <div id="buyForm">
+    <h2>Buy Stock</h2>
+    <label for="symbol" class="sym">Symbol:</label>
+    <select id="symbol" class="s">
+      <option value="AAPL">Apple</option>
+      <option value="MSFT">Microsoft</option>
+      <option value="INTC">Intel</option>
+      <option value="TSLA">Tesla</option>
+      <option value="GOOGL">Google</option>
+      <option value="AMZN">Amazon</option>
+    </select>
+    <label for="quantity" class="sym">Quantity:</label>
+    <input type="number" id="quantity">
+    <button onclick="buyStock()">Buy</button>
+  </div>
+  <hr>
+  <p class="down">@anuraggupta-no-copyright-claim</p>
+  
+  <script src="script3.js"></script>
+</body>
+</html>
